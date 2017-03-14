@@ -9,24 +9,25 @@
       <header>
          <img src="webLogo.png" alt="Web-технологии" height="100" />
          <h1>Основы Web-технологий</h1>
+
+         <nav>
+            <ul>
+               <li><a href="./index.html">Главная</a></li>
+               <li><a href="./web.html">Web-технологии</a>
+                  <ul>
+                     <li><a href="./html5.html">HTML5</a></li>
+                     <li><a href="./css3.html">CSS3</a></li>
+                     <li><a href="./js.html">JavaScript</a></li>
+                  </ul>
+               </li>
+               <li><a href="./calculator.html">Калькулятор</a></li>
+               <li><a href="./test.html">Тест</a></li>
+            </ul>   
+         </nav>
+
       </header>
 
-      <nav>
-         <ul>
-             <li><a href="./Main.html">Главная</a></li>
-             <li><a href="./Web.html">Web-технологии</a>
-                 <ul>
-                     <li><a href="./HTML5.html">HTML5</a></li>
-                     <li><a href="./CSS3.html">CSS3</a></li>
-                     <li><a href="./JS.html">JavaScript</a></li>
-                 </ul>
-             </li>
-             <li><a href="./Calculator.html">Калькулятор</a></li>
-             <li><a href="./Test.html">Тест</a></li>
-         </ul>   
-      </nav>
-
-     <form>
+      <form name="test">
          Какой тег предназначен для создания ссылок:<br />
          <input type="radio" name="question1" value="1" /> &lt;a> <br />
          <input type="radio" name="question1" value="2" /> &lt;a /> <br />
@@ -53,10 +54,10 @@
          <input type="checkbox" name="question4" value="3" /> charset <br />
          <input type="checkbox" name="question4" value="4" /> validate <br /><br />
          <button type="submit">Результат</button>
-     </form>
-     <br />
+      </form>
+      <br />
       <footer>
-           <address >
+           <address>
                <a href="mailto:mail@mail">Пишите: mail@mail</a>
            </address>
            <div>&copy; Фамилия И.О. год</div>
